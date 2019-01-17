@@ -1,5 +1,5 @@
 PKG_NAME := colcon-package-selection
-URL = https://files.pythonhosted.org/packages/ea/29/23f06cd2cf8f0569f23a5d3ef30e21ef4840fa39be8b3bc26c30d0b3a4f5/colcon-package-selection-0.2.2.tar.gz
+URL = https://files.pythonhosted.org/packages/1c/cd/a6e76bbb90ed7367706952e447ed621352d5df9f6c7ca99db791a1f8cd06/colcon-package-selection-0.2.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
