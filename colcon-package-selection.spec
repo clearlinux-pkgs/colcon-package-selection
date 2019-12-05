@@ -4,7 +4,7 @@
 #
 Name     : colcon-package-selection
 Version  : 0.2.5
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/38/e5/feee426d0ac446acc1ad8d69e7b565cb377d1f993e2494236cf1f655144e/colcon-package-selection-0.2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/38/e5/feee426d0ac446acc1ad8d69e7b565cb377d1f993e2494236cf1f655144e/colcon-package-selection-0.2.5.tar.gz
 Summary  : Extension for colcon to select the packages to process.
