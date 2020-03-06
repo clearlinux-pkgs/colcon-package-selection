@@ -4,7 +4,7 @@
 #
 Name     : colcon-package-selection
 Version  : 0.2.5
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/38/e5/feee426d0ac446acc1ad8d69e7b565cb377d1f993e2494236cf1f655144e/colcon-package-selection-0.2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/38/e5/feee426d0ac446acc1ad8d69e7b565cb377d1f993e2494236cf1f655144e/colcon-package-selection-0.2.5.tar.gz
 Summary  : Extension for colcon to select the packages to process.
@@ -17,10 +17,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : colcon-core
 
 %description
-colcon-package-selection
 ========================
-
-An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to select a subset of packages for processing.
 
 %package python
 Summary: python components for the colcon-package-selection package.
@@ -35,7 +32,8 @@ python components for the colcon-package-selection package.
 Summary: python3 components for the colcon-package-selection package.
 Group: Default
 Requires: python3-core
-Provides: pypi(colcon-package-selection)
+Provides: pypi(colcon_package_selection)
+Requires: pypi(colcon_core)
 
 %description python3
 python3 components for the colcon-package-selection package.
@@ -50,8 +48,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582910121
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583528209
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
